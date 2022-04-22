@@ -50,19 +50,19 @@ public class our_tests {
     @Test
     public void test_search1() {
         int arr[] = {1, 2, 3, 4};
-        assertEquals(-1, obj.search(arr, 4, 5));
+        assertEquals(-1, obj.search(arr, 5));
     }
 
     @Test
     public void test_search2() {
         int arr[] = {1, 2, 3, 4};
-        assertEquals(0, obj.search(arr, 4, 1));
+        assertEquals(0, obj.search(arr, 1));
     }
 
     @Test
     public void test_search3() {
         int arr[] = {1, 2, 3, 4};
-        assertEquals(3, obj.search(arr, 4, 4));
+        assertEquals(3, obj.search(arr, 4));
     }
 }
 

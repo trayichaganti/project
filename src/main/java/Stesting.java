@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Stesting {
 
    //AUTHOR: Ankhit Tangella
@@ -5,7 +7,7 @@ public class Stesting {
    public static String merge(String s1, String s2)
     {
         StringBuilder result = new StringBuilder();
-        if (s1== ""||s2== "")
+        if (Objects.equals(s1, "") || Objects.equals(s2, ""))
             return "error";
         for (int i = 0; i < s1.length() || i < s2.length(); i++) {
             if (i < s1.length())
@@ -26,9 +28,9 @@ public class Stesting {
         }
         return true;
     }
-    static int search(int arr[], int n, int x)
+    static int search(int[] arr, int x)
     {
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < 4; i++) {
             if (arr[i] == x)
                 return i;
         }
