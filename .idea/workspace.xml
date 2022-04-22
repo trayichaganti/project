@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80fd09f1-5959-4dc4-81fa-f7c2bac52724" name="Changes" comment="trayi" />
+    <list default="true" id="80fd09f1-5959-4dc4-81fa-f7c2bac52724" name="Changes" comment="trayi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,41 +55,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ourtests.testmerge3">
-    <configuration name="Ourtests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ourtests.testpalindrome2">
+    <configuration name="ourtests.testmerge2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ourtests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ourtests.testmerge1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ourtests" />
-      <option name="METHOD_NAME" value="testmerge1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ourtests.testmerge2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ourtests" />
+      <option name="MAIN_CLASS_NAME" value="ourtests" />
       <option name="METHOD_NAME" value="testmerge2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ourtests.testmerge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ourtests.testmerge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Ourtests" />
+      <option name="MAIN_CLASS_NAME" value="ourtests" />
       <option name="METHOD_NAME" value="testmerge3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ourtests.testpalindrome1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ourtests" />
+      <option name="METHOD_NAME" value="testpalindrome1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ourtests.testpalindrome2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ourtests" />
+      <option name="METHOD_NAME" value="testpalindrome2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ourtests.testsearch3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ourtests" />
+      <option name="METHOD_NAME" value="testsearch3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,10 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ourtests.testmerge3" />
-        <item itemvalue="JUnit.Ourtests.testmerge2" />
-        <item itemvalue="JUnit.Ourtests.testmerge1" />
-        <item itemvalue="JUnit.Ourtests" />
+        <item itemvalue="JUnit.ourtests.testpalindrome2" />
+        <item itemvalue="JUnit.ourtests.testpalindrome1" />
+        <item itemvalue="JUnit.ourtests.testsearch3" />
+        <item itemvalue="JUnit.ourtests.testmerge3" />
+        <item itemvalue="JUnit.ourtests.testmerge2" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +146,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650649194365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="trayi">
+      <created>1650649937371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650649937371</updated>
+    </task>
+    <task id="LOCAL-00005" summary="trayi">
+      <created>1650651623495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650651623495</updated>
+    </task>
+    <task id="LOCAL-00006" summary="trayi">
+      <created>1650652247351</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650652247351</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
