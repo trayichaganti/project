@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class ourtests {
     public static Stesting obj;
 
-    @BeforeClass
+    //@BeforeClass
     public static void setup() {
         obj = new Stesting();
     }
