@@ -4,7 +4,9 @@ import org.junit.Test;
 
 
 import static org.junit.Assert.assertEquals;
-public class Ourtests {
+import static org.junit.Assert.assertTrue;
+
+public class ourtests {
     public static Stesting obj;
 
     @BeforeClass
@@ -32,6 +34,8 @@ public class Ourtests {
     @Test
     public void testpalindrome1() {
         assertEquals(true, obj.palindrome(121));
+
+
     }
 
     @Test
