@@ -5,10 +5,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class ourtests {
+public class our_tests {
     public static Stesting obj;
 
-    //@BeforeClass
+    @BeforeClass
     public static void setup() {
         obj = new Stesting();
     }
@@ -16,51 +16,51 @@ public class ourtests {
     //Author: Ankhit Tangella
     //Description: This test case tests the merge function
     @Test
-    public void testmerge1() {
+    public void test_merge1() {
         assertEquals("Staomy", obj.merge("Sam", "toy"));
     }
 
     @Test
-    public void testmerge2() {
+    public void test_merge2() {
         assertEquals("StAoMy", obj.merge("SAM", "toy"));
     }
 
     @Test
-    public void testmerge3() {
+    public void test_merge3() {
         assertEquals("error", obj.merge("", "toy"));
     }
 
     @Test
-    public void testpalindrome1() {
+    public void test_palindrome1() {
         assertEquals(true, obj.palindrome(121));
 
 
     }
 
     @Test
-    public void testpalindrome2() {
+    public void test_palindrome2() {
         assertEquals(false, obj.palindrome(123));
     }
 
     @Test
-    public void testpalindrome3() {
+    public void test_palindrome3() {
         assertEquals(true, obj.palindrome(111));
     }
 
     @Test
-    public void testsearch1() {
+    public void test_search1() {
         int arr[] = {1, 2, 3, 4};
         assertEquals(-1, obj.search(arr, 4, 5));
     }
 
     @Test
-    public void testsearch2() {
+    public void test_search2() {
         int arr[] = {1, 2, 3, 4};
         assertEquals(0, obj.search(arr, 4, 1));
     }
 
     @Test
-    public void testsearch3() {
+    public void test_search3() {
         int arr[] = {1, 2, 3, 4};
         assertEquals(3, obj.search(arr, 4, 4));
     }
