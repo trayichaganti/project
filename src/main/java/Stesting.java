@@ -5,7 +5,7 @@ public class Stesting {
    public static String merge(String s1, String s2)
     {
         StringBuilder result = new StringBuilder();
-        if (s1==""||s2=="")
+        if (s1== ""||s2== "")
             return "error";
         for (int i = 0; i < s1.length() || i < s2.length(); i++) {
             if (i < s1.length())
