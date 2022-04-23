@@ -1,9 +1,10 @@
+
 public class Stesting {
     public static String mergeStrings(String a, String b){
-        String c = " ";
-        c = a.concat(b);
+        String res = " ";
+        res = a.concat(b);
 
-        return c;
+        return res;
     }
 }
 
