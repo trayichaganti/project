@@ -2,8 +2,7 @@ import java.util.Objects;
 
 public class Stesting {
 
-   //AUTHOR: Ankhit Tangella
-    //Description: This function merges two strings. This function is tested by unit tests testmerge1(),testmerge2(),testmerge3()
+
    public static String merge(String s1, String s2)
     {
         StringBuilder result = new StringBuilder();
@@ -17,23 +16,6 @@ public class Stesting {
         }
         return result.toString();
     }
-    public static boolean palindrome(int num) {
-        String str = String.valueOf(num);
-        int i = 0;
-        int j = str.length() - 1;
-        while (i < j) {
-            if (str.charAt(i++) != str.charAt(j--)) {
-                return false;
-            }
-        }
-        return true;
-    }
-    static int search(int[] arr, int x)
-    {
-        for (int i = 0; i < 4; i++) {
-            if (arr[i] == x)
-                return i;
-        }
-        return -1;
-    }
+
+
 }
