@@ -18,17 +18,17 @@ public class our_tests {
     //Description: This test case tests the merge function
     @Test
     public void test_merge1() {
-        assertEquals("Staomy", obj.merge("Sam", "toy"));
+        assertEquals("Samtoy", obj.mergeStrings("Sam", "toy"));
     }
 
     @Test
     public void test_merge2() {
-        assertEquals("StAoMy", obj.merge("SAM", "toy"));
+        assertEquals("SAMtoy", obj.mergeStrings("SAM", "toy"));
     }
 
     @Test
     public void test_merge3() {
-        assertEquals("error", obj.merge("", "toy"));
+        assertEquals("hilltoy", obj.mergeStrings("hill", "toy"));
     }
 
 
