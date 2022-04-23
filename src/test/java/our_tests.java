@@ -17,18 +17,8 @@ public class our_tests {
     //Author: Ankhit Tangella
     //Description: This test case tests the merge function
     @Test
-    public void test_merge1() {
-        assertEquals("Samtoy", obj.mergeStrings("Sam", "toy"));
-    }
-
-    @Test
-    public void test_merge2() {
-        assertEquals("SAMtoy", obj.mergeStrings("SAM", "toy"));
-    }
-
-    @Test
-    public void test_merge3() {
-        assertEquals("hilltoy", obj.mergeStrings("hill", "toy"));
+    public void  mergeStringsTest() {
+        assertEquals(Stesting.mergeStrings("hi", "hello"),"hihello");
     }
 
 
